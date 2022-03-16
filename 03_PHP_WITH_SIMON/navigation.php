@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar">
-        <div>Navbar</div>
+        <a class="" href="">Ornamentals Fish</a>
     </nav>
 </body>
 
