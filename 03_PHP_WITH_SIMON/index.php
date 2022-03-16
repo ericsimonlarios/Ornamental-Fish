@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>index</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="try">
             <video autoplay muted loop id="MyVideo">
                 <source src="images/fish-background.mp4" type="video/mp4">
             </video>
-            <div class="content">
-                <span>Ornamental Fishes</span>
-                <span>Meet the latest news of the Market.</span>
+            <div class="paper">
+                <div class="content">
+                    <span class="title-1">Ornamental Fishes</span><br>
+                    <span class="sentence">Meet the latest news of the Market.</span>
+                </div>
             </div>
         </div>
     </div>
