@@ -13,8 +13,51 @@ span {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.navbar{
+.navbar {
   background-color: black;
-  height: 20%;
+  height: 12%;
   color: white;
+  padding: 0;
+}
+.nav-logo{
+  width: 5%;
+}
+.nav-list{
+ display: flex;
+ flex-direction: row;
+ list-style-type: none;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+ font-size: 1.15em;
+ justify-content:space-evenly;
+ width: 80%;
+}
+.nav-content{
+  margin: auto;
+  height: 100%;
+}
+.navbar-wrapper{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.nav-text{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-btn{
+  border: 2px solid white; 
+  background: none;
+  color:white;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+.login-btn:hover{
+  color:black;
 }
