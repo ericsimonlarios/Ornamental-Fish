@@ -18,18 +18,18 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .container1 {
    margin: 0;
   padding: 0;
+  position: relative;
 }
 .video-container{
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
-  position: absolute;
   overflow: hidden;
 }
 #MyVideo {
@@ -52,6 +52,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+  width: 70%;
 }
 .paper {
   z-index: 1;
@@ -79,7 +81,7 @@ body {
 }
 /* Nav css */
 .navbar {
-  background-color: black;
+  background-color: rgb(38, 110, 126);
   height: 12%;
   color: white;
   padding: 0;
