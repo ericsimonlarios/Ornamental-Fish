@@ -21,6 +21,8 @@ span {
 }
 .nav-logo{
   width: 5%;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .nav-list{
  display: flex;
