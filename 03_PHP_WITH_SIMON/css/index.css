@@ -14,33 +14,54 @@ html {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-<<<<<<< HEAD
-=======
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .container1 {
-  position: relative;
+   margin: 0;
+  padding: 0;
+}
+.video-container{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
 }
 #MyVideo {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%; 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.try{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .content {
   margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .paper {
   z-index: 1;
   width: 100%;
   height: 100%;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.69);
@@ -56,12 +77,11 @@ body {
   text-align: center;
   font-size: 20px;
 }
->>>>>>> 7c3e68d1e9e285f4e2fa4512e84ad4f28a3c7391
+/* Nav css */
 .navbar {
   background-color: black;
   height: 12%;
   color: white;
-<<<<<<< HEAD
   padding: 0;
 }
 .nav-logo{
@@ -107,6 +127,4 @@ body {
 }
 .login-btn:hover{
   color:black;
-=======
->>>>>>> 7c3e68d1e9e285f4e2fa4512e84ad4f28a3c7391
 }
