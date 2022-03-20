@@ -7,16 +7,61 @@
 body,
 p,
 div,
-span {
+span,
+html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+<<<<<<< HEAD
+=======
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+.container1 {
+  position: relative;
+}
+#MyVideo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.content {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.paper {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+.title-1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+.sentence {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+>>>>>>> 7c3e68d1e9e285f4e2fa4512e84ad4f28a3c7391
 .navbar {
   background-color: black;
   height: 12%;
   color: white;
+<<<<<<< HEAD
   padding: 0;
 }
 .nav-logo{
@@ -62,4 +107,6 @@ span {
 }
 .login-btn:hover{
   color:black;
+=======
+>>>>>>> 7c3e68d1e9e285f4e2fa4512e84ad4f28a3c7391
 }
